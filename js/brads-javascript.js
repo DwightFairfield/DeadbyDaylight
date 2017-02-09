@@ -1,3 +1,12 @@
+$(".answer-list").hide();
+$(".question-list").click(function(){
+  $(this).next(".answer-list").slideToggle();
+});
+
+
+
+
+
 // code for slideshow on homepage
 $(".slideshow").slick({
   autoplay: true,
