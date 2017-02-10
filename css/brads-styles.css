@@ -8,6 +8,15 @@ body {
   overflow-x: hidden;
 }
 
+.question-list {
+  cursor: pointer;
+}
+
+.question-list:hover {
+  color: #777;
+  text-decoration: underline;
+}
+
 .no-scroll {
   overflow: hidden;
 }
